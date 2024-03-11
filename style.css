@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#cabecalho{
+    background-color: #303030;
+    color: #FFFFFF;
+    Height: 340px;
+}
+
+#titulocabecalho{
+    font-size: 40px;
+    margin-left: 50px;
+    padding-top: 150px;
+}
+
+#textocabecalho{
+    margin-left: 50px;
+}
+
+#menupainel{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    height: 50px;
+    background-color: #F9F9F9;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+.bolder{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#titleandtext{
+    margin-top: 180px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#titulodescr{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+#textoarq{
+    font-family: 'raleway';
+    font-size: 20px;
+}
+
+#descricao{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-right: 50px;
+}
+
+#apto{
+    Height: 450px;
+    margin-top: 60px;
+    padding-bottom: 50px;
+}
+
+#forms{
+    background-color: #303030;
+    color: #FFFFFF;
+    Height: 400px;
+    text-align: center;
+    padding-top: 65px;
+}
+
+input{
+    Width: 350px;
+    Height: 45px;
+    background-color:#FFFFFF;
+    border: 0px;
+    border-radius: 10px;
+    font-family: 'raleway';
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: bolder;
+    margin: 25px;
+}
+
+button{
+    background-color: #C07212;
+    Width: 250px;
+    Height: 45px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: 'raleway';
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+button:hover{
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #0333479d;
+    transition-duration: 0.5s;
+}
